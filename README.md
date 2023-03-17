@@ -16,3 +16,10 @@ https://ill-puce-chinchilla-kit.cyclic.app
 - run `yarn install` or `npm install` in your terminal
 - run `nodemon index` or `yarn start` or `node index` for make package active
 - make someting new for the push.
+
+## Say Hi
+
+Ask a question or give us a shout out:
+
+- 💌 https://www.instagram.com/paozanwa22/
+- 🐣 https://www.facebook.com/paozan.wadi/
