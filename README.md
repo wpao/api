@@ -16,9 +16,11 @@ curl -i https://localhost:3000/animals/rin%20tin%20tin \
 ```
 
 ### Read All - List
+you can add /tes1 in last URL = you get all tes1.json
+you can add /tes2 in last URL = you get all tes2.json
 
 ```shell
-curl -i https://localhost:3000/animals
+https://ill-puce-chinchilla-kit.cyclic.app
 ```
 
 ### Read
