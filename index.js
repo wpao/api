@@ -1,8 +1,11 @@
 const { rejects } = require("assert");
 const express = require("express");
 const tes1 = './datas/tes1.json'
+const tes2 = './datas/tes2.json'
+
 const fs = require('fs');
-const { resolve } = require("path");
+
+// const { resolve } = require("path");
 
 const app = express();
 
@@ -32,15 +35,8 @@ app.get("/tes1", async (req, res, next) => {
     res.send(await test(tes1))
 });
 
-app.get('/paozan', (req, res) => {
-    res.json({
-        name: "paozan",
-        hody: "Game, conding, Al-Qur'an"
-    })
-})
-
-app.get('/tes1', (req, res) => {
-    res.json()
-})
+app.get("/tes2", async (req, res, next) => {
+    res.send(await test(tes2))
+});
 
 app.listen(port, () => console.log(`Server is listening on port ${port}`));
