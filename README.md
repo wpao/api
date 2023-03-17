@@ -11,3 +11,8 @@ This is an example Api designed
 ```shell
 https://ill-puce-chinchilla-kit.cyclic.app
 ```
+### Contribusi
+- fork this api
+- run `yarn install` or `npm install` in your terminal
+- run `nodemon index` or `yarn start` or `node index` for make package active
+- make someting new for the push.
